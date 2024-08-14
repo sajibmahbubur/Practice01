@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img{
+    width: 146px; 
+    border: 2px solid white;
+    border-radius: 33px;
+    box-shadow: 0 0 5px 2px #04a7ff;
+    margin-bottom: 15px;
+}
+div{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0000009c;
+}
+h1{
+color: #ffffff;
+font-size: 40px;
+}
+p{
+color: #ffffff;
+font-size: 18px;
+}
+span{ 
+color: #4598e0;
+}
